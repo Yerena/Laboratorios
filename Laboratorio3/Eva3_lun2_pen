@@ -1,0 +1,13 @@
+Implemente un programa que calcule varios valores estadísticos a partir de una lista de números enteros. 
+Los valores estáran almacenados en un archivo así (note el espacio entre los valores):
+
+val11 val12 val13 val14 val15 valr16 … val1n
+val21 val22 val23 val24 val25 val216 … val2n
+.
+.
+.
+valm1 valm2 valm3 valm4 valm5 valrm6 … valmn
+
+1. Cree un hilo POR CADA uno de los siguientes valores a calcular: promedio, mínimo, máximo, es decir, 3 hilos.
+
+2. En total serán 4 hilos. El hilo principal debe imprimir en pantalla el valor de cada uno de los estadísticos que proveen los demás hilos.
